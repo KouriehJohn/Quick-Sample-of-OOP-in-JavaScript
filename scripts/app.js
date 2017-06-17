@@ -37,7 +37,14 @@ function Person(fullName, favColor) {
 var john = new Person("John Doe", "blue");
 john.greet();
 
+var jack = new Person("Jack Smith", "yellow");
+jack.greet();
+
 var jane = new Person("Jane Doe", "green");
 jane.greet();
 
+var janna = new Person("Janna Smith", "red");
+janna.greet();
+
 // ^^^^^^^^^^^^^ Round 3 ^^^^^^^^^^^^^^^^
+// Last version is MUCH cleaner, easier to maintain, and replicate.
